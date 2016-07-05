@@ -1,0 +1,3 @@
+Enter new UNIX password: Retype new UNIX password: passwd: password updated successfully
+curl: (28) Resolving timed out after 5515 milliseconds
+Starting gonit daemon

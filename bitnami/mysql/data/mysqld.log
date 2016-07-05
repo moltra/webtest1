@@ -1,0 +1,123 @@
+2016-07-05T13:40:33.320103Z mysqld_safe Starting mysqld.bin daemon with databases from /opt/bitnami/mysql/data
+2016-07-05T13:40:36.757403Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-05T13:40:36.757489Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2016-07-05T13:40:36.757547Z 0 [Note] /opt/bitnami/mysql/bin/mysqld.bin (mysqld 5.7.13) starting as process 1984 ...
+2016-07-05T13:40:36.992659Z 0 [Note] InnoDB: PUNCH HOLE support not available
+2016-07-05T13:40:36.992683Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-05T13:40:36.992698Z 0 [Note] InnoDB: Uses event mutexes
+2016-07-05T13:40:36.992701Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2016-07-05T13:40:36.992704Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-05T13:40:36.992708Z 0 [Note] InnoDB: Using Linux native AIO
+2016-07-05T13:40:36.992914Z 0 [Note] InnoDB: Number of pools: 1
+2016-07-05T13:40:36.993629Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-05T13:40:37.002481Z 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2016-07-05T13:40:37.003378Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-05T13:40:37.010748Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2016-07-05T13:40:37.160569Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-05T13:40:37.816184Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2016-07-05T13:40:37.816233Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2016-07-05T13:40:38.052554Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2016-07-05T13:40:38.053292Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2016-07-05T13:40:38.053318Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2016-07-05T13:40:38.053916Z 0 [Note] InnoDB: Waiting for purge to start
+2016-07-05T13:40:38.116040Z 0 [Note] InnoDB: 5.7.13 started; log sequence number 3306100
+2016-07-05T13:40:38.117201Z 0 [Note] InnoDB: Loading buffer pool(s) from /opt/bitnami/mysql/data/ib_buffer_pool
+2016-07-05T13:40:38.117420Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-05T13:40:38.446272Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2016-07-05T13:40:38.446301Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-07-05T13:40:38.446326Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-05T13:40:38.446381Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-05T13:40:38.558395Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160705 13:40:38
+2016-07-05T13:40:39.014676Z 0 [Note] Event Scheduler: Loaded 0 events
+2016-07-05T13:40:39.014819Z 0 [Note] /opt/bitnami/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.13'  socket: '/opt/bitnami/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2016-07-05T13:41:27.832696Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2016-07-05T13:41:27.832726Z 0 [Note] Shutting down slave threads
+2016-07-05T13:41:27.833949Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2016-07-05T13:41:27.834577Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2016-07-05T13:41:27.894510Z 0 [Note] Binlog end
+2016-07-05T13:41:27.895732Z 0 [Note] Shutting down plugin 'ngram'
+2016-07-05T13:41:27.895821Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2016-07-05T13:41:27.895828Z 0 [Note] Shutting down plugin 'partition'
+2016-07-05T13:41:27.895831Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2016-07-05T13:41:27.895835Z 0 [Note] Shutting down plugin 'CSV'
+2016-07-05T13:41:27.895982Z 0 [Note] Shutting down plugin 'MEMORY'
+2016-07-05T13:41:27.895998Z 0 [Note] Shutting down plugin 'MyISAM'
+2016-07-05T13:41:27.896076Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2016-07-05T13:41:27.896192Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2016-07-05T13:41:27.896347Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2016-07-05T13:41:27.896354Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2016-07-05T13:41:27.896356Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2016-07-05T13:41:27.896359Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2016-07-05T13:41:27.896361Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2016-07-05T13:41:27.896364Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2016-07-05T13:41:27.896366Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2016-07-05T13:41:27.896368Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2016-07-05T13:41:27.896371Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2016-07-05T13:41:27.896373Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2016-07-05T13:41:27.896376Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2016-07-05T13:41:27.896378Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2016-07-05T13:41:27.896380Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2016-07-05T13:41:27.896383Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2016-07-05T13:41:27.896385Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2016-07-05T13:41:27.896388Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2016-07-05T13:41:27.896390Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2016-07-05T13:41:27.896392Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2016-07-05T13:41:27.896395Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2016-07-05T13:41:27.896397Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2016-07-05T13:41:27.896400Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2016-07-05T13:41:27.896402Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2016-07-05T13:41:27.896404Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2016-07-05T13:41:27.896407Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2016-07-05T13:41:27.896409Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2016-07-05T13:41:27.896412Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2016-07-05T13:41:27.896414Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2016-07-05T13:41:27.896416Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2016-07-05T13:41:27.896419Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2016-07-05T13:41:27.896421Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2016-07-05T13:41:27.896424Z 0 [Note] Shutting down plugin 'InnoDB'
+2016-07-05T13:41:27.896869Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2016-07-05T13:41:27.897120Z 0 [Note] InnoDB: Starting shutdown...
+2016-07-05T13:41:27.997331Z 0 [Note] InnoDB: Dumping buffer pool(s) to /opt/bitnami/mysql/data/ib_buffer_pool
+2016-07-05T13:41:27.997507Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 160705 13:41:27
+2016-07-05T13:41:29.373351Z 0 [Note] InnoDB: Shutdown completed; log sequence number 3306128
+2016-07-05T13:41:29.373923Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2016-07-05T13:41:29.373938Z 0 [Note] Shutting down plugin 'sha256_password'
+2016-07-05T13:41:29.373943Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2016-07-05T13:41:29.374088Z 0 [Note] Shutting down plugin 'binlog'
+2016-07-05T13:41:29.374999Z 0 [Note] /opt/bitnami/mysql/bin/mysqld.bin: Shutdown complete
+
+2016-07-05T13:41:29.409829Z mysqld_safe mysqld from pid file /opt/bitnami/mysql/data/mysqld.pid ended
+2016-07-05T13:41:40.451124Z mysqld_safe Starting mysqld.bin daemon with databases from /opt/bitnami/mysql/data
+2016-07-05T13:41:40.838644Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2016-07-05T13:41:40.838731Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2016-07-05T13:41:40.838765Z 0 [Note] /opt/bitnami/mysql/bin/mysqld.bin (mysqld 5.7.13) starting as process 2849 ...
+2016-07-05T13:41:40.858311Z 0 [Note] InnoDB: PUNCH HOLE support not available
+2016-07-05T13:41:40.858337Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2016-07-05T13:41:40.858342Z 0 [Note] InnoDB: Uses event mutexes
+2016-07-05T13:41:40.858346Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2016-07-05T13:41:40.858350Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2016-07-05T13:41:40.858354Z 0 [Note] InnoDB: Using Linux native AIO
+2016-07-05T13:41:40.858581Z 0 [Note] InnoDB: Number of pools: 1
+2016-07-05T13:41:40.858678Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2016-07-05T13:41:40.867935Z 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2016-07-05T13:41:40.869045Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2016-07-05T13:41:40.869540Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2016-07-05T13:41:40.881624Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2016-07-05T13:41:41.210078Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2016-07-05T13:41:41.217936Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2016-07-05T13:41:41.402446Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2016-07-05T13:41:41.403298Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2016-07-05T13:41:41.403320Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2016-07-05T13:41:41.403917Z 0 [Note] InnoDB: Waiting for purge to start
+2016-07-05T13:41:41.454084Z 0 [Note] InnoDB: 5.7.13 started; log sequence number 3306156
+2016-07-05T13:41:41.454365Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2016-07-05T13:41:41.455813Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2016-07-05T13:41:41.455829Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2016-07-05T13:41:41.455849Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2016-07-05T13:41:41.455893Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2016-07-05T13:41:41.456059Z 0 [Note] InnoDB: Loading buffer pool(s) from /opt/bitnami/mysql/data/ib_buffer_pool
+2016-07-05T13:41:41.464262Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160705 13:41:41
+2016-07-05T13:41:41.506654Z 0 [Note] Event Scheduler: Loaded 0 events
+2016-07-05T13:41:41.507184Z 0 [Note] /opt/bitnami/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.13'  socket: '/opt/bitnami/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)

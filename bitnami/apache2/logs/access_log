@@ -1,0 +1,11 @@
+54.83.192.146 - - [05/Jul/2016:13:42:39 +0000] "GET / HTTP/1.1" 200 3677
+10.95.94.43 - - [05/Jul/2016:13:42:46 +0000] "GET /wp-content/themes/twentysixteen/genericons/genericons.css?ver=3.4.1 HTTP/1.1" 200 28266
+10.95.94.43 - - [05/Jul/2016:13:42:46 +0000] "GET /wp-content/themes/twentysixteen/style.css?ver=4.5.3 HTTP/1.1" 200 68939
+10.95.94.43 - - [05/Jul/2016:13:42:46 +0000] "GET /wp-includes/js/jquery/jquery.js?ver=1.12.4 HTTP/1.1" 200 97184
+10.95.94.43 - - [05/Jul/2016:13:42:47 +0000] "GET /wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1 HTTP/1.1" 200 10056
+10.95.94.43 - - [05/Jul/2016:13:42:47 +0000] "GET /wp-content/themes/twentysixteen/js/skip-link-focus-fix.js?ver=20160412 HTTP/1.1" 200 1059
+10.95.94.43 - - [05/Jul/2016:13:42:47 +0000] "GET /wp-content/themes/twentysixteen/js/functions.js?ver=20160412 HTTP/1.1" 200 6820
+10.95.94.43 - - [05/Jul/2016:13:42:47 +0000] "GET /wp-includes/js/wp-embed.min.js?ver=4.5.3 HTTP/1.1" 200 1403
+10.95.94.43 - - [05/Jul/2016:13:42:47 +0000] "GET /bitnami/banner.js HTTP/1.1" 200 1127
+10.95.94.43 - - [05/Jul/2016:13:42:47 +0000] "GET /bitnami/images/close.png HTTP/1.1" 200 2064
+10.95.94.43 - - [05/Jul/2016:13:42:47 +0000] "GET /bitnami/images/corner-logo.png HTTP/1.1" 200 26352
